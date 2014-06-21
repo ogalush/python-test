@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-sys.path.append('../')
+sys.path.append('/var/lib/jenkins/jobs/Python-test/workspace')
 import hello
 
 from nose.tools import ok_
