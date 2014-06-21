@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0">
+<testcase classname="nose.failure.Failure" name="runTest" time="0.001">
+<error type="builtins.OSError" message="No such file /var/lib/jenkins/test">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.4/unittest/case.py", line 57, in testPartExecutor
+    yield
+  File "/usr/lib/python3.4/unittest/case.py", line 574, in run
+    testMethod()
+  File "/usr/local/lib/python3.4/dist-packages/nose/failure.py", line 42, in runTest
+    raise self.exc_class(self.exc_val)
+OSError: No such file /var/lib/jenkins/test
+]]>
+</error>
+</testcase>
+</testsuite>
