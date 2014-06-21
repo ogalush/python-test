@@ -2,6 +2,7 @@
 
 import sys
 sys.path.append('../')
+import hello
 
 from nose.tools import ok_
 
