@@ -1,9 +1,7 @@
-#!/usr/bin/python3
-
 import sys
 sys.path.append('/var/lib/jenkins/jobs/Python-test/workspace')
 import hello
-
+from hello import *
 from nose.tools import ok_
 
 def test_is_prime():
